@@ -1,0 +1,9 @@
+<!----<app-childcomponent (myevent) = "data=$event"></app-childcomponent>
+<h1>Message from child is : {{data}}</h1>--->
+
+<!---<input [(ngModel)] = "Name" type = "text">
+<h2>Your name contains : {{Name.length}} letters</h2>--->
+
+<input (keyup)="onKey($event)">
+<h1>Your name contains : {{values}} letters</h1>
+
